@@ -4,4 +4,6 @@
 <br> Cделал 3 деплоймента (hello-world, permitted, restricted) на базе образа praqma/network-multitool
 ![pods](pods.png)
 
-<br> После этого применил две сетевых политики, одна с полный запретом [ingress](default.yaml), другая разрешает ингресс от подов permitted к hello-world по порту 80
+<br> После этого применил две сетевых политики, [первая](default.yaml) с полный запретом, а [вторая](hello-world.yaml) разрешает ингресс от подов permitted к hello-world по порту 80.
+<br> ![policies](policies.png)
+
